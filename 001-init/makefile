@@ -24,7 +24,8 @@ lflags :=
 lflags += -L${PTL}/lib -lPTL
 
 main:
-	${cc} -std=c++20 -g -O3 ${flags} ${compflags} ${iflags} main.cc -o ${target} ${lflags}
+	${cc} -std=c++20 -g -O3 ${flags} ${compflags} ${iflags} main.cc    -o ${target} ${lflags}
+	${cc} -std=c++20 -g -O3 ${flags} ${compflags} ${iflags} convert.cc -o convert.x ${lflags}
 
 run: main
 	./${target}
