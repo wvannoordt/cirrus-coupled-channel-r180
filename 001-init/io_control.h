@@ -67,6 +67,8 @@ namespace local
             if (!std::filesystem::is_directory(out_path)) std::filesystem::create_directory(out_path);
         }
         
+        const std::vector<std::string>& get_raw_args() const {return raw_args;}
+        
         void create_dirs() const
         {
             create_if_not_exist(ck_dir_name(0));

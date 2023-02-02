@@ -1,0 +1,10 @@
+Config
+{
+    blocks_x = 4//8
+    blocks_y = 4//8
+    blocks_z = 4//8
+    cells_x = 6
+    cells_y = 6
+    cells_z = 6
+    nexch   = 2
+}
