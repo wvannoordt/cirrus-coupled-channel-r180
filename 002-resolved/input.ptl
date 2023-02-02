@@ -1,17 +1,17 @@
 Config
 {
-    blocks_x = 4 //8
-    blocks_y = 4 //8
-    blocks_z = 4 //8
+    blocks_x = 8
+    blocks_y = 8
+    blocks_z = 8
     cells_x = 48
     cells_y = 48
     cells_z = 48
-    fsize_x = 8
-    fsize_y = 8
-    fsize_z = 8
+    fsize_x = 16
+    fsize_y = 16
+    fsize_z = 16
     nexch   = 2
     cfl     = 0.5
     nt_max  = 1000000
     nt_skip = 1000000
-    ck_skip = 500
+    ck_skip = 1000
 }
